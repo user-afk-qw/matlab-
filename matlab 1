@@ -1,3 +1,4 @@
+Задание 1
 >> V=[1 2 3]
 
 V =
@@ -285,14 +286,36 @@ ans =
 
 >>  type e2pi
 
-%% Graphical Approach to Solving Inequalities
-% This example shows an interesting graphical approach to find out whether
-% e^pi is greater than pi^e or not.
+Задание 2
+>> x=1.234;
+>> V=[1 2 3 4 5];
+>> M=magic(4);
+>>  who
 
-% Copyright 1984-2012 The MathWorks, Inc.
+Your variables are:
 
-%%
-% The question is: which is greater, e^pi or pi^e? The easy way to find out is
+M  V  x  
+
+>>  whos
+  Name      Size            Bytes  Class     Attributes
+
+  M         4x4               128  double              
+  V         1x5                40  double              
+  x         1x1                 8  double              
+
+>> x=-6:.1:6;
+>> plot(x,sin(x),x,sin(x).^3,x,sin(x).^5);
+>> Z=peaks(40);
+>> mesh(Z);
+>> 
+>> mesh(Z);
+
+
+
+
+
+
+? The easy way to find out is
 % to type it directly at the MATLAB(R) command prompt.  But it motivates a more
 % interesting question.  What is the shape of the function z=x^y-y^x?  Here is a
 % plot of z.
